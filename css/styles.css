@@ -386,12 +386,7 @@ body {
 }
 
 .works.list > .item {
-  flex-basis: calc((100% - 10px) / 3);
-  max-width: 370px;
-
-  padding-bottom: 20px;
-
-  border: 1px solid var(--color-border-potfolio);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .works-img {
@@ -399,7 +394,13 @@ body {
   text-align: center;
   box-sizing: border-box;
 
-  margin: 0 auto 20px auto;
+  margin: 0;
+}
+
+.section.works .text {
+  padding: 20px 24px;
+
+  border: 1px solid var(--color-border-potfolio);
 }
 
 .works .title {
@@ -411,8 +412,6 @@ body {
 
   margin-top: 0;
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .works .type {
@@ -422,6 +421,4 @@ body {
 
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 24px;
-  padding-right: 24px;
 }
